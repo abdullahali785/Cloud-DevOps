@@ -3,8 +3,8 @@ Linux Command Line
 1) Navigation
 
 ls -> List files/folders
-ls-l -> Detailed List
-ls-a -> Includes hidden files
+ls -l -> Detailed List
+ls -a -> Includes hidden files
 
 cd -> Change Directory
 cd path/to/folders

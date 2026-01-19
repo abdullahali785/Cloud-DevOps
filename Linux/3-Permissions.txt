@@ -1,0 +1,11 @@
+Permissions 
+
+Linux is multi-user so permissions are important
+
+ls -l -> See permissions
+
+chmod -> Change permissions
+chmod 755 script.sh -> owner full, group+others read+execute
+
+chown -> Change owner
+chown user:group file.txt

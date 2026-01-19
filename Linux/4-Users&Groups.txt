@@ -1,0 +1,11 @@
+Users & Groups
+
+whoami -> Current user info
+
+id -> Current user id, group id
+
+adduser Abdullah -> Add Abdullah to a group
+
+groups Abdullah -> See Abdullah's groups
+
+sudo -> Run as admin 
