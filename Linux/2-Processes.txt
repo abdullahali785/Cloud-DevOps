@@ -1,0 +1,14 @@
+Processes
+
+Every running program is a process
+
+ps -> List running processes 
+
+top -> Interactive process monitor 
+htop -> Better version of top
+
+PID -> Process ID
+kill PID -> Terminate a process
+pkill name -> Terminate by name
+
+& -> Run process in background 
