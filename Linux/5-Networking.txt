@@ -1,0 +1,17 @@
+Networking Basics
+
+ping google.com -> Check connection with google
+
+curl https://google.com -> Get google content 
+
+wget URL -> Download file from internet
+
+netstat -tulnp -> See open ports
+ss -tulnp -> See open services 
+
+Common Ports
+    80 -> HTTP
+    443 -> HTTPS
+    22 -> SSH
+    3000 -> Often Node.js dev servers
+
