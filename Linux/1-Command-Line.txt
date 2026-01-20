@@ -44,7 +44,7 @@ tail file.txt -> Last 10 lines
 
 4) Text Processing
 
-grep "pattern" file.txt -> Searches file.txt for "patter"
+grep "pattern" file.txt -> Searches file.txt for "pattern"
 
 awk '{print $2}' file.txt -> Prints column 2 of file.txt
 

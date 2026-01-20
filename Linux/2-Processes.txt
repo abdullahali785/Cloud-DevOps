@@ -5,7 +5,7 @@ Every running program is a process
 ps -> List running processes 
 
 top -> Interactive process monitor 
-htop -> Better version of top
+htop -> Better version of top (Requires installation)
 
 PID -> Process ID
 kill PID -> Terminate a process
