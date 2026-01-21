@@ -1,0 +1,21 @@
+Dockerfile 
+
+It is how we build an Image. Basically a list of instructions.
+
+FROM image -> Base Image
+WORKDIR /app -> Working directory inside container
+COPY package.json -> Copy files from host/Image
+RUN command -> Command executed at build time
+CMD ["npm", "start"] -> 'npm start' executed at container start (runtime)
+
+
+Dockerfile → docker build → Image → docker run → Container
+
+
+.dockerignore
+
+Same as .gitignore but for Docker builds
+
+Helps speed up builds, reduce Image sizes, and cut security risks
+
+If it shouldn’t be inside the container, add it to .dockerignore (ignore it)

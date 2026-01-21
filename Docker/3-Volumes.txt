@@ -1,0 +1,16 @@
+Volumes 
+
+A persistent storage that lives outside the container
+
+Containers can die, once that happens the file system dies
+Volumes solve this issue by providing permenant storage 
+
+Use cases:
+    Databases
+    Uploaded files
+    Caches
+    Dev hot-reload (App updates without server/conatiner restart, even if conatiner is dead)
+
+Types:
+    Named volumes (prod)
+    Bind mounts (dev)

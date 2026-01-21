@@ -1,0 +1,8 @@
+Networking
+
+Each container gets its own network from Docker
+Containers talk to each other by service name, not localhost
+
+Enables micro-services
+Works same locally and in production
+Important for Docker compose and Kubernetes

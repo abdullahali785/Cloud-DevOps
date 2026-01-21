@@ -1,0 +1,21 @@
+Docker - Container and Image
+
+Container -> Running process with isolation. It includes:
+    App
+    Dependencies
+    Runtime environment
+    File system
+    Environment variables
+
+Bundles all these and isolates from host but shares host operating system 
+
+
+Image -> Blueprint of a Container 
+    Read only
+    Build once
+    Versioned
+
+"Container" is the running version of an "Image"
+It has a state
+Can be started, stopped, and deleted
+
