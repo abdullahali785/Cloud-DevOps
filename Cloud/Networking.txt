@@ -1,0 +1,44 @@
+AWS Networking VPC
+
+VPC -> Private Cloud Network 
+
+VPC provides:
+  Private IPs
+  Routing 
+  Isolation
+  Firewall control
+
+By default nothing is accessible from the internet
+Traffic flow has to explicitly approved
+
+
+Subnets -> Smaller network inside a VPC
+
+Common Design:
+Public Subnet
+- EC2 web server
+- Internet access
+
+Private Subnet
+- RDS database
+- No public internet
+
+Databases always private 
+Server depends 
+
+
+Security Groups -> Firewall
+
+Checks if traffic is allowed or not
+By default -> NO 
+
+
+User Browser
+   ↓
+Internet
+   ↓ Security Groups 
+EC2 (public subnet)
+   ↓ IAM
+RDS (private subnet)
+   ↓ IAM
+S3 (images, assets)

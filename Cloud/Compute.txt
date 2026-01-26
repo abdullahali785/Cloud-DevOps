@@ -1,0 +1,18 @@
+AWS Compute EC2
+
+EC2 -> Virtual Machine
+SSH into EC2
+Runs on Linux/Windows -> CPU/OS/Ram/Disk (Your choice)
+
+"SSH into" means remotely logging into a machine, controlling it, and executing commands inside it
+It is secure as it encrypts all traffic, including passwords etc. It requires authentication.
+
+Used for:
+  Backend servers
+  Docker hosts
+  Databases
+
+Personal device ->  SSH -> EC2 Linux VM (AWS)
+
+Basically, Amazon powers it, you control it. 
+Pay by hour when it's running.

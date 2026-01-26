@@ -1,0 +1,23 @@
+AWS Storage S3
+
+S3 -> Infinite File Storage
+
+Can store:
+  Images
+  Videos
+  PDFs
+  Backups
+  Logs
+  Frontend build files
+
+Cannot store:
+  File system 
+  Database
+
+
+Bucket -> Top level container 
+Object -> File
+Key -> Path-like name
+
+bucket: fitvault-assets
+key: images/products/nike-airmax.jpg

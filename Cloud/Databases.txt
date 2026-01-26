@@ -1,0 +1,23 @@
+AWS Databases RDS 
+
+RDS -> Managed SQL Database
+
+Supported engines:
+  PostgresSQL
+  MySql
+  Oracle
+  SQL servers
+
+What AWS does:
+  Backups
+  Updates
+  Failover -> Switching to backup in case of failure in primary DB
+  Disk scaling -> Automatic increasing of storage capacity to prevent outage
+
+What you manage:
+  Tables
+  Queries 
+  Indexes (Indexing) -> Optimizing query performance by creating specialized data structures 
+  Performance tuning -> Analyzing and optimizing queries, indexing strategies, and infrastructure resources 
+
+RDS is better so it replaces your database, that's it

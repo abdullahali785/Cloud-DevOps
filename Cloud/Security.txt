@@ -1,0 +1,14 @@
+AWS Security IAM
+
+IAM -> Who is allowed to do what
+
+Controls:
+  Users
+  Roles
+  Permissions
+
+User -> Human
+Role -> Permissions required to use a service
+Policy -> Rules of allowed actions in a role
+
+Every AWS API call is authenticated so IAM is required
