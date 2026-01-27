@@ -12,7 +12,17 @@ Used for:
   Docker hosts
   Databases
 
-Personal device ->  SSH -> EC2 Linux VM (AWS)
+Personal device -> SSH -> EC2 Linux VM (AWS)
 
 Basically, Amazon powers it, you control it. 
 Pay by hour when it's running.
+
+Internet
+   ↓
+Public IP (18.189.194.87)
+   ↓
+NAT (AWS magic)
+   ↓
+Private IP (172.31.11.189)
+   ↓
+EC2 Linux VM
